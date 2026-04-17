@@ -1,0 +1,67 @@
+start
+    num a = 50;
+    num b = 10;
+    num c = 0;
+
+    text message = "Welcome to Pookie Lang!";
+    text name = "Pookie";
+
+    show message;
+    show name;
+
+    num sum = a + b;
+    num diff = a - b;
+    num prod = a * b;
+    num quot = a / b;
+    num remain = a % b;
+
+    show "sum is:";
+    show sum;
+
+    show "diff is:";
+    show diff;
+
+    show "product is:";
+    show prod;
+
+    show "division is:";
+    show quot;
+
+    show "remainder is:";
+    show remain;
+
+    num complex = (a + b) * (a - b);
+    show "complex calculation is:";
+    show complex;
+
+    a = 16;
+
+    if (a > 15) {
+        show "a is greater than 15";
+    }
+
+    if (b < 10) {
+        show "b is less than 10";
+    } else {
+        show "b is 10 or greater";
+        show b;
+    }
+
+    c = 0;
+    show "while loop for 0 to 4";
+
+    while (c < 5) {
+        show c;
+        c = c + 1;
+    }
+
+    text loopp = "Loop";
+    show loopp;
+
+    num i = 0;
+    loop (i = 0; i < 5; i = i + 1) {
+        show i;
+    }
+
+    show "Program completed successfully!";
+end
